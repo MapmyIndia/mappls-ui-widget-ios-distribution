@@ -13,9 +13,9 @@ Below are the list of dependencies which are required to run this SDK:
 
 | Dependency | Minimum Version |
 | :---- | :---- |
-| [MapplsAPICore](https://github.com/mappls-api/mappls-ios-sdk/blob/main/docs/MapplsAPICore.md) | `1.0.18` |
-| [MapplsAPIKit](https://github.com/mappls-api/mappls-ios-sdk/blob/main/docs/MapplsAPIKit.md) | `2.0.38` |
-| [MapplsMap](https://github.com/mappls-api/mappls-ios-sdk/blob/main/docs/MapplsMap.md) | `6.0.2` |
+| [MapplsAPICore](https://github.com/MapmyIndia/mappls-api-core-distribution.git) | `1.0.18` |
+| [MapplsAPIKit](https://github.com/MapmyIndia/mappls-api-kit-distribution.git) | `2.0.38` |
+| [MapplsMap](https://github.com/MapmyIndia/mappls-map-ios-distribution.git) | `6.0.2` |
 
 ## [Installation](#Installation)
 
@@ -46,7 +46,7 @@ dependencies: [
 ]
 ```
 
-> **Note:** `MapplsUIWidgets` is distributed as a binary framework. When integrating via Swift Package Manager you must also add its [dependencies](#Dependencies) (`MapplsAPICore`, `MapplsLMS`, `MapplsAPIKit`, `MapplsMap`) to your project.
+> **Note:** `MapplsUIWidgets` is distributed as a binary framework. When integrating via Swift Package Manager you must also add its [dependencies](#Dependencies) (`MapplsAPICore`, `MapplsAPIKit`, `MapplsMap`) to your project.
 
 ### [Version History](#Version-History)
 
