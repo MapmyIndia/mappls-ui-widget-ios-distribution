@@ -1,4 +1,5 @@
-// swift-tools-version:5.3
+// swift-tools-version: 5.9
+
 import PackageDescription
 
 let package = Package(
@@ -9,16 +10,14 @@ let package = Package(
     products: [
         .library(
             name: "MapplsUIWidgets",
-            targets: ["MapplsUIWidgets"])
-    ],
-    dependencies: [
-        
+            targets: ["MapplsUIWidgets"]
+        )
     ],
     targets: [
         .binaryTarget(
             name: "MapplsUIWidgets",
-            url: "https://mmi-api-team.s3.amazonaws.com/Mappls-SDKs/iOS_Legacy_Auth/MapplsUIWidgets/MapplsUIWidgets.xcframework-1.0.14.zip",
-            checksum: "9c07a261ee72bd44401b5046900a61aa2cdae0ef7dd076cf2a2ca8a246976930"
+            url: "https://mmi-api-team.s3.amazonaws.com/Mappls-SDKs/iOS_Legacy_Auth/MapplsUIWidgets/MapplsUIWidgets.xcframework-1.0.15.zip",
+            checksum: "7bff6b62c1b6118309af2a0427bb7cef97dcc75a75fe28952d46e512120d15ee"
         )
     ]
 )
